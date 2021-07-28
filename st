@@ -1,5 +1,7 @@
 #!/bin/bash
-
+#####################
+#Author=@tech2gamer #
+#####################
 clear
 green="\033[1;32m"
 yellow="\033[1;33m"
