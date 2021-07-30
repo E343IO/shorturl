@@ -7,7 +7,7 @@
 🔰This tool is specifically designed for ngrok.io links🔰
 
 Just for short ur any url, specifically ngrok.io links
-## 🔰Commands where us🔰
+## 🔰Commands where use🔰
 $ ```apt update && apt upgrade -y && apt install curl -y```
 
 $ ```cd $HOME```
