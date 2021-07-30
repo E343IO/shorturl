@@ -4,7 +4,7 @@
 
 🔰This tool is specifically designed for ngrok.io links🔰
 
-Just for short ur any url ngrok too.
+Just for short ur any url, specifically ngrok.io links
 
 $ cd $HOME
 
