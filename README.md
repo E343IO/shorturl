@@ -7,20 +7,20 @@
 🔰This tool is specifically designed for ngrok.io links🔰
 
 Just for short ur any url, specifically ngrok.io links
-
+## 🔰Commands where us🔰
 $ ```cd $HOME```
 
 $ ```cd shorturl```
 
 $ ```chmod +x st```
 
-## ● for termux ●
+## ● use only in termux ●
 
 $ ```mv st $PREFIX/bin```
 
 $ ```st```
 
-## ● for linux distro ●
+## ● use only in linux distro ●
 
 $ ```mv st /bin```
 
