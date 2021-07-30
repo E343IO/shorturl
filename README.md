@@ -1,5 +1,9 @@
 # shorturl
 
+○Soon will added more shortners○
+
+🔰This tool is specifically designed for ngrok.io links🔰
+
 Just for short ur any url ngrok too.
 
 $ cd $HOME
