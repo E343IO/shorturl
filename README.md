@@ -8,23 +8,23 @@
 
 Just for short ur any url, specifically ngrok.io links
 
-$ cd $HOME
+$ ```cd $HOME```
 
-$ cd shorturl
+$ ```cd shorturl```
 
-$ chmod +x st
+$ ```chmod +x st```
 
-● for termux ●
+## ● for termux ●
 
-$ mv st $PREFIX/bin
+$ ```mv st $PREFIX/bin```
 
-$ st
+$ ```st```
 
-● for linux distro ●
+## ● for linux distro ●
 
-$ mv st /bin
+$ ```mv st /bin```
 
-$ st
+$ ```st```
 
 Then ur good to go just type: 'st' in ur terminal.
 
