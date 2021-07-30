@@ -12,13 +12,13 @@ $ cd shorturl
 
 $ chmod +x st
 
-● for termux●
+● for termux ●
 
 $ mv st $PREFIX/bin
 
 $ st
 
-●In linux distro●
+● for linux distro ●
 
 $ mv st /bin
 
