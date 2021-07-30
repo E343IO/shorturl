@@ -8,6 +8,8 @@
 
 Just for short ur any url, specifically ngrok.io links
 ## 🔰Commands where us🔰
+$ ```apt update && apt upgrade -y && apt install curl -y```
+
 $ ```cd $HOME```
 
 $ ```cd shorturl```
