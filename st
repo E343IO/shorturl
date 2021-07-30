@@ -17,10 +17,10 @@ echo""
 if [[ $url == *''* ]]; then
 	short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=$url)
 	shorter=${short#https://}
- read -p $'\n\033[1;92mDrk \033[1;97m>> \033[1;37mMask Your url domain here \033[1;93m(Ex. https://google.com) :\e[0m ' mask                                                                                             
+        read -p $'\n\033[1;92mDrk \033[1;97m>> \033[1;37mMask Your url domain here \033[1;93m(Ex. https://google.com) :\e[0m ' mask                                                                                             
 	printf "$green Drk>> $yellow Enter your key words -: Ex. join-club-login\n"
         printf "$green Drk>> $yellow Don't use space in your words\n"
-     read -p $'\e[1;92mDrk\033[1;97m>> \e[1;37mEnter your words here :\e[0m ' words 
+        read -p $'\e[1;92mDrk\033[1;97m>> \e[1;37mEnter your words here :\e[0m ' words 
 	echo
 	echo
 	printf "$black🔰$orange$black U$white $black R$green $black L 🔰"
