@@ -1,5 +1,7 @@
 # shorturl
 
+## 🔰IN BETA TESTING.🔰
+
 ○Soon will added more shortners○
 
 🔰This tool is specifically designed for ngrok.io links🔰
