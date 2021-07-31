@@ -46,7 +46,7 @@ function os () {
 }
 
 function clone() {
-	lch="Cloning shorturl";="shorturl Cloned";echo
+	lch="Cloning shorturl";dn="shorturl Cloned";echo
 	(git clone https://github.com/tech2gamer/shorturl --quiet ${main}) & spinner
 }
 
