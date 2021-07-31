@@ -39,12 +39,16 @@ function os () {
 	fi
 }
 
-remst () {
+function remst () {
 rm -rf $BIN/st St t2g T2g instagram Instagram  
 }
 
 function purge_shorturl() {	
         printf "${red} Do you wish to delete all files ? y/n : ";read ans && [ "$ans" != "${ans#[Yy]}" ];remst
+}
+
+function upd () {
+wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | bash
 }
 
 usage () {
@@ -61,9 +65,13 @@ while true; do
                     usage       
                     exit 1
                     ;;
+              -u|--update)
+	           upd
+		   exit 1
+		   ;;
               
-              -p|--purge)
-               purge_shorturl
+	       -p|--purge)
+                purge_shorturl
                 exit 1
                 ;;
            
