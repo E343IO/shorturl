@@ -86,6 +86,8 @@ printf "\e[0m\n"
 sleep 2
 os
 lch="Creating Environment...";dn="Environment Created."
+cd $DRK
+sleep 2
 cp -f shorturl $BIN/st
 cp -f shorturl $BIN/St
 echo 'termux-open-url https://github.com/tech2gamer/' > $BIN/t2g
