@@ -40,7 +40,7 @@ function os () {
 		DRK="$HOME/shorturl"			
 	else
 		OS=TERMUX
-		BIN="$PREFIX/bin"
+		BIN="/data/data/com.termux/files/usr/bin"
 		DRK="$HOME/shorturl"
 	fi
 }
@@ -51,6 +51,7 @@ function clone() {
 }
 clone
 sleep 5
+clear
 cd $DRK
 
 lch="Updating pkg's...";dn="Updated."
@@ -88,8 +89,8 @@ os
 lch="Creating Environment...";dn="Environment Created."
 cd $DRK
 sleep 2
-cp -f url shorturl $BIN/
-cp -f url shorturl $BIN/St
+cp -f shorturl $BIN/st
+cp -f shorturl $BIN/St
 echo 'termux-open-url https://github.com/tech2gamer/' > $BIN/t2g
 echo 'termux-open-url https://github.com/tech2gamer/' > $BIN/T2g 
 echo 'termux-open-url https://www.instagram.com/tech2.gamer/' > $BIN/instagram 
