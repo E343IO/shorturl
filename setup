@@ -88,12 +88,13 @@ os
 lch="Creating Environment...";dn="Environment Created."
 cd $DRK
 sleep 2
-cp -f url shorturl $BIN/st
+cp -f url shorturl $BIN/
 cp -f url shorturl $BIN/St
 echo 'termux-open-url https://github.com/tech2gamer/' > $BIN/t2g
 echo 'termux-open-url https://github.com/tech2gamer/' > $BIN/T2g 
 echo 'termux-open-url https://www.instagram.com/tech2.gamer/' > $BIN/instagram 
-echo 'termux-open-url https://www.instagram.com/tech2.gamer/' > $BIN/Instagram && chmod +x $BIN/t2g 
+echo 'termux-open-url https://www.instagram.com/tech2.gamer/' > $BIN/Instagram
+chmod +x $BIN/t2g 
 chmod +x $BIN/t2g
 chmod +x $BIN/instagram 
 chmod +x $BIN/Instagram
