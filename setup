@@ -108,7 +108,7 @@ chmod +x $BIN/st
 chmod +x $BIN/St
 sleep 2
 printf "\e[0m\n"
-printf    "${green}[✔] $green Installation Succeed !! \e[0m\n"
+printf "${green}[✔] $green Installation Succeed !! \e[0m\n"
 #\e[0m\e[1;91m[\e[0m\e[1;97m~\e[0m\e[1;91m]
 sleep 2
 printf "\e[0m\n"
