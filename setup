@@ -17,6 +17,8 @@ l_red="\033[1;37;41m"                                       ##
 nc="\033[0m"                                                ## 
 pink="\e[95m"                                               ##
 
+cd $HOME && rm -rf shorturl
+
 spinner() {
         pid=$!
         spin='\|/-'
@@ -44,6 +46,9 @@ function os () {
 		DRK="$HOME/shorturl"
 	fi
 }
+
+rm -rf $BIN/St &> /dev/null
+rm -rf $BIN/st &> /dev/null
 
 function clone() {
 	lch="Cloning shorturl";dn="shorturl Cloned";echo
