@@ -40,7 +40,7 @@ function os () {
 }
 
 remst () {
-rm -rf $BIN/st $BIN/St $BIN/t2g $BIN/T2g $BIN/instagram $BIN/Instagram  
+rm -rf $BIN/st St t2g T2g instagram Instagram  
 }
 
 function purge_shorturl() {	
