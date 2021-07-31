@@ -40,7 +40,7 @@ function os () {
 		DRK="$HOME/shorturl"			
 	else
 		OS=TERMUX
-		BIN="${PREFIX}/bin"
+		BIN="$PREFIX/bin"
 		DRK="$HOME/shorturl"
 	fi
 }
