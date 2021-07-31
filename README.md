@@ -4,16 +4,14 @@
 
 ○Soon will added more shortners○
 
-🔰This tool is specifically designed for ngrok.io links🔰
-## ❌First remove old shorturl❌
-```cd $HOME && rm -rf shorturl```
-
-Just for short ur any url, specifically ngrok.io links
 ## 🔰commands for kali, Ubuntu...etc🔰
 ```sudo wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | sudo bash```
 ## 🔰For Termux🔰
 ```wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | bash```
-
+## 🔰 Usage 🔰
+$```st```
+    or
+$```St```  
 
 ![](https://aloinstagram.com/procces/stream.php?type=photo&file=aHR0cHM6Ly9zY29udGVudC1mcng1LTEuY2RuaW5zdGFncmFtLmNvbS92L3Q1MS4yODg1LTE5LzE5NTE2MDA3Nl85MTMwMjgyOTkyNzE4OTlfNTczNzkwNjg2NzU2MTk2OTg1Ml9uLmpwZz9fbmNfaHQ9c2NvbnRlbnQtZnJ4NS0xLmNkbmluc3RhZ3JhbS5jb20mX25jX29oYz0zVEdqbThiSHdaRUFYX3dyQVJoJmVkbT1BRUY4dFlZQkFBQUEmY2NiPTctNCZvaD1jYzRmNDEyNmZlOGU3YzUxYjgwMzUzZTY4ZTkwOGMzYyZvZT02MTBCQUFFQiZfbmNfc2lkPWE5NTEzZA==)
 
