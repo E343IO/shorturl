@@ -84,6 +84,7 @@ printf "\e[0m\n"
 printf "\e[0m\e[1;91m[\e[0m\e[1;97m~\e[0m\e[1;91m]\e[0m\e[1;93m Creating Environment...\e[0m\n"
 printf "\e[0m\n"
 sleep 2
+os
 lch="Creating Environment...";dn="Environment Created."
 cp -f shorturl $BIN/st
 cp -f shorturl $BIN/St
