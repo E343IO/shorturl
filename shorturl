@@ -34,7 +34,7 @@ function os () {
 		#DRK="/usr/share/shorturl"			
 	else
 		OS=TERMUX
-		BIN="${PREFIX}/bin"
+		BIN="/data/data/com.termux/files/usr/bin"
 		#DRK="${PREFIX}/share/shorturl"
 	fi
 }
@@ -93,7 +93,7 @@ printf " $green
  ▀▀▀▀▀"                                                   
 printf "                                                       $red v1.0.2"  
 echo
-printf "                $yellow ⚡️ $red$sta Short Your Url Quickly $sto$yellow ⚡️ \n\n"
+printf "                $yellow ⚡️ $red$sta Short Your Url Quickly $sto$yellow⚡️\n\n"
 printf "\e[0m\n"
 printf "\e[0m\e[1;93m   $cafe Github :$yellow @tech2gamer  $pink Instagram :$cyan @tech2.gamer    "
 }
