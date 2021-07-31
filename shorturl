@@ -185,7 +185,7 @@ tput cup 20 0
 figlet -f slant "tech2gamer" |lolcat
 figlet -f slant "hackers-colony" |lolcat
 sleep 3
-xdg-open https://www.youtube.com/channel/UCXnBZRpLD7QzcJsUKBF-cKw
+xdg-open https://youtube.com/channel/UCdoWbP5TmqnrbpenTF7npSA
 }
 printf "\e[0m\n"
 echo
