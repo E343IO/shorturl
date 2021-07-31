@@ -30,7 +30,7 @@ spinner() {
                 printf "\r${cyan1}[${spin:$i:1}]${nc} ${cyan1} $lch"
                 sleep .1
 	done
-     printf "\r   ${green}[✔]${nc} ${green} $dn";echo
+     printf "\r${green}[✔]${nc} ${green} $dn";echo
         tput cnorm
 }
 
