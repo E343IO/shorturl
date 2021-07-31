@@ -53,8 +53,10 @@ wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | bash
 
 usage () {
 cat <<EOF
-Usage: $(basename $0) [OPTIONS] available
+Usage: $(basename $0) 
+[OPTIONS] available
 -p, --purge       remove shorturl
+-u, --update      To update tool
 EOF
 }
 
