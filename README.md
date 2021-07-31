@@ -5,6 +5,8 @@
 ○Soon will added more shortners○
 
 🔰This tool is specifically designed for ngrok.io links🔰
+## ❌First remove old shorturl❌
+```cd $HOME && rm -rf shorturl```
 
 Just for short ur any url, specifically ngrok.io links
 ## 🔰commands for kali, Ubuntu...etc🔰
