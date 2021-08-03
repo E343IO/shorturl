@@ -44,8 +44,7 @@ rm -rf $BIN/st St t2g T2g instagram Instagram
 }
 
 function purge_shorturl() {	
-       os;printf "${red} Do you wish to delete all files ? y/n : ";read ans && [ "$ans" != "${ans#[Yy]}" ]; then 
-       remst
+       os;printf "${l_red} Do you wish to delete all files ? y/n : ";read ans && [ "$ans" != "${ans#[Yy]}" ];remst
 }
 
 function upd () {
