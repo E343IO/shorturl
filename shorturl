@@ -34,7 +34,7 @@ function os () {
 		#DRK="/usr/share/shorturl"			
 	else
 		OS=TERMUX
-		BIN="/data/data/com.termux/files/usr/bin"
+		BIN="${PREFIX}/bin"
 		#DRK="${PREFIX}/share/shorturl"
 	fi
 }
