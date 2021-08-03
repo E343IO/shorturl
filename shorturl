@@ -39,12 +39,12 @@ function os () {
 	fi
 }
 
-function remst () {
+remst () {
 rm -rf $BIN/st St t2g T2g instagram Instagram  
 }
 
 function purge_shorturl() {	
-        printf "${red} Do you wish to delete all files ? y/n : ";read ans && [ "$ans" != "${ans#[Yy]}" ];remst
+       os;printf "${red} Do you wish to delete all files ? y/n : ";read ans && [ "$ans" != "${ans#[Yy]}" ];remst
 }
 
 function upd () {
