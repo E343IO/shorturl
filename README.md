@@ -1,29 +1,47 @@
-# shorturl
+<p align="center">
+<a href="https://github.com/tech2gamer"><img title="Made with Love in india" src="https://i.ibb.co/Lxj3BPd/mask-your-url-ngrok-tinyurl-1.png" </a>
+ <!--# <p align="center">**SHORTURL**-->
 
-## 🔰IN BETA TESTING.🔰
+ ***
+  <p align="center">
+  <img src="https://i.ibb.co/zmc9qGY/b215ce00-31b0-11ea-9b32-78ed64ea5120.png" width="50%" height="50%" >
 
-○Soon will added more shortners○
+#### <p align="center">**Link Shortener**
+</p>
+<p align="center">
+<a href="https://github.com/tech2gamer"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
+ <a href="https://github.com/tech2gamer/shorturl"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.2&x2=0" ></a>
+<a href="https://github.com/tech2gamer"><img title="GitHub version" src="https://img.shields.io/github/license/tech2gamer/shorturl?color=Brightgree" ></a>
+<a href="https://instagram.com/tech2.gamer/"><img alt="Instagram" src="https://img.shields.io/badge/Instagram-tech2.gamer-ff69b4"/></a>
+<a 
+<a href="https://github.com/tech2gamer"><img title="Stars" src="https://img.shields.io/github/stars/tech2gamer/shorturl?style=social" ></a>
+</p>
 
-## 🔰commands for kali, Ubuntu...etc🔰
-```sudo wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | sudo bash```
-## 🔰For Termux🔰
-```wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | bash```
-## 🔰 Usage 🔰
-$```st```
-    or
-$```St```  
+###### <p align="center">*This is official repository maintained by us*
+###### <p align="center"> *[**@tech2gamer**](https://www.instagram.com/tech2.gamer/) ❤️*
+<!-- ###### <p align="center"> *You can check [youtube](https://www.youtube.com/channel/UCdoWbP5TmqnrbpenTF7npSA)✌* -->
+---
 
-![](https://aloinstagram.com/procces/stream.php?type=photo&file=aHR0cHM6Ly9zY29udGVudC1mcng1LTEuY2RuaW5zdGFncmFtLmNvbS92L3Q1MS4yODg1LTE5LzE5NTE2MDA3Nl85MTMwMjgyOTkyNzE4OTlfNTczNzkwNjg2NzU2MTk2OTg1Ml9uLmpwZz9fbmNfaHQ9c2NvbnRlbnQtZnJ4NS0xLmNkbmluc3RhZ3JhbS5jb20mX25jX29oYz0zVEdqbThiSHdaRUFYX3dyQVJoJmVkbT1BRUY4dFlZQkFBQUEmY2NiPTctNCZvaD1jYzRmNDEyNmZlOGU3YzUxYjgwMzUzZTY4ZTkwOGMzYyZvZT02MTBCQUFFQiZfbmNfc2lkPWE5NTEzZA==)
+## <p align="center">***What is Shorturl??***
+ <p align="center"> <img src="https://i.ibb.co/5F3tgcG/giphy.webp" width="100" height="100" >
+   
+###### <p align="center">  This tool is specifically designed for ngrok.io links that may u know, Popular for phishing and stuff...This tool can mask the url using shortner so that victim can't sus on the link also I edit tinyurl based on tinurl api that's shorten your any link. [eg. of •tinyurl• https://tinyurl.com/98rjd] New patches will soon uploaded.
 
-[_**@tech2.gamer**_](https://www.instagram.com/tech2.gamer/)                      
-                        
-![](https://aloinstagram.com/procces/stream.php?type=photo&file=aHR0cHM6Ly9zY29udGVudC1mcng1LTEuY2RuaW5zdGFncmFtLmNvbS92L3Q1MS4yODg1LTE5LzE2NDc3NjE1OV80ODcxODU5MjI0MjIyNTBfNDU4NzMwODg2OTQ3MzU1MzQxNl9uLmpwZz9fbmNfaHQ9c2NvbnRlbnQtZnJ4NS0xLmNkbmluc3RhZ3JhbS5jb20mX25jX29oYz1xVGt4Um5PUWJqOEFYX3BUNEY0JmVkbT1BRUY4dFlZQkFBQUEmY2NiPTctNCZvaD0yOWIwN2I3ZGIzYTY0YWQyM2ExNWZjNzczNDI5ODY3MCZvZT02MTBCOEFEOCZfbmNfc2lkPWE5NTEzZA==)
+<!--### <p align="center"> <img src="https://media.giphy.com/media/l41YmiCZ8HXvVl5M4/giphy.gif" alt="Instagram" width="80" height="80" > **Instagram Tutorial :-**-->
 
-[_**@hackers-colony**_](https://instagram.com/hackers_colony_official/)
+<!-- #### <p align="center"> [**IGTV**](https://www.instagram.com/tv/CPaK7qzpUPo/?utm_source=ig_web_copy_link) -->
 
-
-# This tool is specifically designed for ngrok.io links that may u know, Popular for phishing and stuff...This tool can mask the url using shortner so that victim can't sus on the link
-## New patches will soon uploaded.
-____________________________________
-### If you can add more shortenrs in tool or add somthing new and creative you are welcome, just pull it. I'll merge.
-
+## <p align="center"> ***Installation of Shorturl:-***<img src="https://i.ibb.co/gtTWWcX/giphy-1.webp" width="50" height="50" >
+#### <p align="center"> **Debian (kali, Ubuntu ..etc )**
+#### <p align="center"> ``` sudo wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | sudo bash ```
+***
+#### <p align="center"> **Android (Termux)**
+#### <p align="center"> ``` wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | bash ```
+***
+#### <p align="center"> **Windows**
+### <p align="center"> [![Open in Cloud Shell](https://user-images.githubusercontent.com/27065646/92304704-8d146d80-ef80-11ea-8c29-0deaabb1c702.png)](https://console.cloud.google.com/cloudshell/open?git_repo=https://github.com/tech2gamer/shorturl&tutorial=README.md)
+### <p align="center"> **Open cloud shell 👆 then paste 👇 this command for windows**
+#### <p align="center"> ``` sudo wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | sudo bash ```
+***
+###### <p align="center"> **Note**:- Make sure you have done updated your system before using the tool.
+### <p align="center"> ***If you like this tool don't forget to give :-*** <img src="https://i.ibb.co/pJY8CDJ/giphy.gif" width="50" height="50" >
