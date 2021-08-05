@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 #colors
 white="\033[1;37m"                                          ##
 grey="\033[0;37m"                                           ##
@@ -117,21 +117,3 @@ printf " \e[0m\e[1;91m[\e[0m\e[1;97m~\e[0m\e[1;91m]\e[0m\e[1;93m Type \e[0m\e[1;
 printf "\e[0m\n"
 printf "\e[0m\n"
 os
-if [[ cp: cannot create regular file '/usr/bin/st': Permission denied ]]; then
-        clear
-        sleep 1                                                                                                               printf $red "Installetion error⚠️"
-        echo
-        sleep 2
-        printf $green "don't worry i'm there just copy and paste below commands"
-        echo
-        echo
-        printf $yellow "for Android"
-        echo
-        cd $HOME/shorturl
-        printf $green "cp -f shorturl $PREFIX/bin/st && cp -f shorturl $PREFIX/bin/st "
-        echo
-        echo
-        printf $Yellow "for kali ubuntu...etc & for windows (cloud shell)"
-        echo
-        printf $green "sudo cp -f shorturl /bin/st && sudo cp -f shorturl /bin/St && sudo chmod +x st St"
-
