@@ -31,12 +31,16 @@ function os () {
 	if [ "$?" -eq "0" ]; then
 		OS=DEBIAN 
 		BIN="/usr/bin"
-		#DRK="/usr/share/shorturl"			
+		#DRK="/usr/share/shorturl"
+		sudo wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | sudo bash	
 	else
 		OS=TERMUX
 		BIN="${PREFIX}/bin"
-		#DRK="${PREFIX}/share/shorturl"
-	fi
+		#DRK="${PREFIX}/share/shorturl
+                wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | bash
+
+       
+        fi
 }
 
 remst () {
@@ -45,10 +49,6 @@ rm -rf $BIN/st St t2g T2g instagram Instagram
 
 function purge_shorturl() {	
        os;printf "${l_red} Do you wish to delete all files ? y/n : ";read ans && [ "$ans" != "${ans#[Yy]}" ];remst
-}
-
-function upd () {
-wget -qO- https://github.com/tech2gamer/shorturl/raw/main/setup | bash
 }
 
 usage () {
@@ -68,7 +68,7 @@ while true; do
                     exit 1
                     ;;
               -u|--update)
-	           upd
+	           os
 		   exit 1
 		   ;;
               
@@ -157,8 +157,8 @@ if [[ $ng == $ng ]]; then
 	short=$(curl -s https://is.gd/create.php\?format\=simple\&url\=$ng)
 	shorter=${short#https://}
         read -p $'\n\033[1;92mDrk \033[1;97m>> \033[1;37mMask Your url domain here \033[1;93m(Ex. https://google.com) :\e[0m ' mask                                                                                             
-	printf "$green Drk>> $yellow Enter your key words -: Ex. join-club-login\n"
-        printf "$green Drk>> $yellow Don't use space in your words\n"
+	printf "\033[1;92mDrk >> $yellow Enter your key words -: Ex. join-club-login\n"
+        printf "\033[1;92mDrk >> $yellow Don't use space in your words\n"
         read -p $'\e[1;92mDrk\033[1;97m>> \e[1;37mEnter your words here :\e[0m ' words 
 	echo
 	echo
