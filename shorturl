@@ -207,21 +207,20 @@ fi
 
 tq () {
 
-echo -en "\e[93m Have you subscribe our channel (y/n)? \e[m "
+echo -en "\e[93m Have you followed me on instagram (y/n)? \e[m "
 read answer
 if [ "$answer" != "${answer#[Yy]}" ] ;then
 tput cup 17 21
-    echo -e "\e[42m Thankyou for subscribing our channel \e[m"
+    echo -e "\e[42m Thankyou for following me on insta. \e[m"
 else
 tput cup 17 23
-    echo -e "\e[41m Please subsrcibe our channel Buddy\e[m"
+    echo -e "\e[41m Please follow me on instagram.\e[m"
 fi
 tput cup 20 0
 
-figlet -f slant "tech2gamer" |lolcat
-figlet -f slant "hackers-colony" |lolcat
-sleep 3
-xdg-open https://youtube.com/channel/UCdoWbP5TmqnrbpenTF7npSA
+figlet -f slant "tech2gamer" |lolcat -a -t 2
+xdg-open https://www.instagram.com/tech2.gamer/
+
 }
 printf "\e[0m\n"
 echo
@@ -231,7 +230,7 @@ printf " \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;32m Tinyurl $yello
 echo
 printf " \e[0m\e[1;91m[\e[0m\e[1;97m03\e[0m\e[1;91m]\e[0m\e[1;32m About Us\e[0m\n"
 echo
-printf " \e[0m\e[1;91m[\e[0m\e[1;97m99\e[0m\e[1;91m]\e[0m\e[1;32m Exit\e[0m\n"
+printf " \e[0m\e[1;91m[\e[0m\e[1;97mx\e[0m\e[1;91m]\e[0m\e[1;32m Exit\e[0m\n"
 echo
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' num
 
@@ -240,11 +239,10 @@ ngrk
 elif [[ $num == 2 || $num == 02 ]]; then
 tiny
 elif [[ $num == 3 || $num == 03 ]]; then
-xdg-open https://www.instagram.com/tech2.gamer/
+xdg-open https://www.github.com/tech2gamer/
 sleep 5
-xdg-open https://www.instagram.com/hackers_colony_official/
 tq
-elif [[ $num == 99 ]]; then
+elif [[ $num == x || $num == X ]]; then
 clear
 exit
 else
