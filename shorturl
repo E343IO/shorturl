@@ -31,12 +31,14 @@ function os () {
 	if [ "$?" -eq "0" ]; then
 		OS=DEBIAN 
 		BIN="/usr/bin"
+                sd="sudo"
 		#DRK="/usr/share/shorturl"
 
 	
 	else
 		OS=TERMUX
 		BIN="${PREFIX}/bin"
+                sd=""
 		#DRK="${PREFIX}/share/shorturl
 	fi
 }
@@ -49,7 +51,7 @@ else
 	fi
 }
 rmst () {
-os;printf "\e[32mDo you wish to delete all files ? y/n :\e[0m";read rmt && [ "$rmt" != "${rmt#[Yy]}" ];rm -rf ${BIN}/st St t2g T2g instagram Instagram
+os;printf "\e[32mDo you wish to delete all files ? y/n :\e[0m";read rmt && [ "$rmt" != "${rmt#[Yy]}" ];$sd rm -rf ${BIN}/st St t2g T2g instagram Instagram
 }
 usage () {
 cat <<EOF
