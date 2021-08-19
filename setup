@@ -108,12 +108,12 @@ chmod +x $BIN/st
 chmod +x $BIN/St
 sleep 2
 printf "\e[0m\n"
-printf "${green}[✔] $green Installation Succeed !! \e[0m\n"
+printf "\033[1;32m[✔] Installation Succeed !! \e[0m\n"
 #\e[0m\e[1;91m[\e[0m\e[1;97m~\e[0m\e[1;91m]
 sleep 2
 printf "\e[0m\n"
 printf "\e[0m\n"
-printf " \e[0m\e[1;91m[\e[0m\e[1;97m~\e[0m\e[1;91m]\e[0m\e[1;93m Type \e[0m\e[1;92mSt Or st \e[0m\e[1;93mto Run this Tool \e[0m\n"
+printf "\e[0m\e[1;91m[\e[0m\e[1;97m~\e[0m\e[1;91m]\e[0m\e[1;93m Type \e[0m\e[1;92mSt Or st \e[0m\e[1;93mto Run this Tool \e[0m\n"
 printf "\e[0m\n"
 printf "\e[0m\n"
 os
