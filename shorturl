@@ -218,7 +218,7 @@ tput cup 17 23
 fi
 tput cup 20 0
 
-figlet -f slant "tech2gamer" |lolcat -a -t 2
+figlet -f slant "tech2gamer" |lolcat -a -d 2
 xdg-open https://www.instagram.com/tech2.gamer/
 
 }
