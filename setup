@@ -15,8 +15,9 @@ fiuscha="\033[0;35m"                                        ##
 blue="\033[1;34m"                                           ##
 l_red="\033[1;37;41m"                                       ##
 nc="\033[0m"                                                ## 
-pink="\e[95m"                                               ##
-
+pink="\e[95m"  
+echo -e $yellow"Please wait...!"$white                                             ##
+apt-get install ncurses-utils -y &> /dev/null
 cd $HOME && rm -rf shorturl
 
 spinner() {
