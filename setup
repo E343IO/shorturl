@@ -20,6 +20,7 @@ echo -e $yellow"Please wait...!"$white
 echo
 apt-get install ncurses-utils -y &> /dev/null
 apt-get install python -y &> /dev/null && pip install lolcat &> /dev/null
+clear
 cd $HOME && rm -rf shorturl
 spinner() {
         pid=$!
