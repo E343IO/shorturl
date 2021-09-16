@@ -54,13 +54,16 @@ function clone() {
 	lch="Cloning shorturl...";dn="shorturl Cloned";echo
 	(git clone https://github.com/tech2gamer/shorturl --quiet ${main}) & spinner
 }
+lch="Updating pkg's...";dn="Updated."
+apt update &> /dev/null && apt install curl -y &> /dev/null && apt install git -y &> /dev/null && apt-get install ncurses-utils -y &> /dev/null && apt-get install jp2a -y &> /dev/null && apt-get install figlet -y &> /dev/null && apt-get install ruby -y &> /dev/null && gem install lolcat -y &> /dev/null && $green apt-get install -y xdg-utils  & spinner
+
 clone
 sleep 5
 clear
 cd $DRK
 
-lch="Updating pkg's...";dn="Updated."
-apt update &> /dev/null && apt install curl -y &> /dev/null && apt install git -y &> /dev/null && apt-get install jp2a -y &> /dev/null && apt-get install figlet -y &> /dev/null && apt-get install ruby -y &> /dev/null && gem install lolcat -y &> /dev/null && $green apt-get install -y xdg-utils  & spinner
+#lch="Updating pkg's...";dn="Updated."
+#apt update &> /dev/null && apt install curl -y &> /dev/null && apt install git -y &> /dev/null && apt-get install ncurses-utils -y &> /dev/null && apt-get install jp2a -y &> /dev/null && apt-get install figlet -y &> /dev/null && apt-get install ruby -y &> /dev/null && gem install lolcat -y &> /dev/null && $green apt-get install -y xdg-utils  & spinner
 banner() {
 clear
 printf "\e[0m\n"
