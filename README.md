@@ -8,7 +8,7 @@
 
 #### <p align="center">**Link Shortener**
 </p>
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=tech2gamer&label=Repository%20views&color=0e75b6&style=flat" alt="tech2gamer" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=tech2gamer&label=Repository%20views&color=0e75b6&style=flat" alt="tech2gamer" /> </p>
 <p align="center">
 <a href="https://github.com/tech2gamer"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
 <a href="https://github.com/tech2gamer/shorturl"><img title="GitHub version" src="https://d25lcipzij17d.cloudfront.net/badge.svg?id=gh&type=6&v=1.0.2&x2=0" ></a>
