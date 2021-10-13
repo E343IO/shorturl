@@ -4,7 +4,7 @@
 
  ***
   <p align="center">
-  <img src="https://i.ibb.co/DbSZBGK/20211013-200221.jpg" width="50%" height="50%" >
+  <img src="https://i.ibb.co/DbSZBGK/20211013-200221.jpg" width="100%" height="100%" >
 
 #### <p align="center">**Link Shortener**
 </p>
