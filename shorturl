@@ -26,6 +26,9 @@ l_red="\033[1;37;41m"                                       ##
 nc="\033[0m"                                                ## 
 pink="\e[95m"                                               ##
 ##############################################################
+error_msg() {
+        printf "${red}[!] ${white}${1}\n${nc}"
+}
 function check_root() {
         if [ "$(whoami &2>/dev/null)" != "root" ] && [ "$(id -un &2>/dev/null)" != "root" ];then 
                 error_msg "Admin user detected\n"
@@ -265,6 +268,7 @@ figlet -f slant "Mr.Derek" |lolcat -a -d 2
 xdg-open https://www.instagram.com/e343io/
 
 }
+startup() {
 printf "\e[0m\n"
 echo
 printf " \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;32m Your Phishing Url $yellow(\e[1;34mMaskable$yellow) \e[0m\n"
@@ -294,7 +298,9 @@ printf $red"❌Wrong Input❌"
 sleep 1.5
 st
 fi
-
+}
+os
+startup
 #😥️Bro if You are going to edit my tools then pls add me on ur github contribute😥️
 #it Because we can change the world 
 #if you hur from my words Don't 🔥️ plss just chill and ur free to edit just 👆️ me.
