@@ -26,23 +26,26 @@ l_red="\033[1;37;41m"                                       ##
 nc="\033[0m"                                                ## 
 pink="\e[95m"                                               ##
 ##############################################################
+function check_root() {
+        if [ "$(whoami &2>/dev/null)" != "root" ] && [ "$(id -un &2>/dev/null)" != "root" ];then 
+                error_msg "Admin user detected\n"
+                error_msg "You must be root to run this script!\n"
+                error_msg "Use 'sudo !!'\n"
+                exit 1
+	fi
+}
+
 function os () {
 	cat /etc/os-release &> /dev/null 2>&1
 	if [ "$?" -eq "0" ]; then
 		OS=DEBIAN 
 		BIN="/usr/bin"
-                sd="sudo"
-		#DRK="/usr/share/shorturl"
-
-	
+                check_root	
 	else
 		OS=TERMUX
 		BIN="${PREFIX}/bin"
-                sd=""
-		#DRK="${PREFIX}/share/shorturl
 	fi
 }
-$sd st
 upd () {
 
 	if [[ $OS == DEBIAN ]]; then
@@ -52,7 +55,7 @@ else
 	fi
 }
 rmst () {
-os;printf "\e[32mDo you wish to delete all files ? y/n :\e[0m";read rmt && [ "$rmt" != "${rmt#[Yy]}" ];$sd rm -rf ${BIN}/st St t2g T2g instagram Instagram
+os;printf "\e[32mDo you wish to delete all files ? y/n :\e[0m";read rmt && [ "$rmt" != "${rmt#[Yy]}" ];rm -rf ${BIN}/st St t2g T2g instagram Instagram
 }
 usage () {
 cat <<EOF
