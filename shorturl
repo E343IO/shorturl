@@ -30,7 +30,9 @@ error_msg() {
         printf "${red}[!] ${white}${1}\n${nc}"
 }
 function check_root() {
-        if [ "$(whoami &2>/dev/null)" != "root" ] && [ "$(id -un &2>/dev/null)" != "root" ];then 
+        if [ "$(whoami &2>/dev/null)" != "root" ] && [ "$(id -un &2>/dev/null)" != "root" ];then
+                echo ""
+                echo ""
                 error_msg "Admin user detected\n"
                 error_msg "You must be root to run this script!\n"
                 error_msg "Use 'sudo !!'\n"
