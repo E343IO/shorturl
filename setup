@@ -77,10 +77,10 @@ printf " $green
        ▓█▀ ▓▓▄▓█▀     ▀▀▓▓ ▓▓ ▐▓░▓▌ ▐▓▌▐▓░  ▐▓░ ▓▓  ▐▓▌▐▓▓▓▓  ▐▓    
        █▌▄ ▄▄▄       ▓▓▓▓▀ ▓▓ ▐▓░▀▓▒▓▀ ▐▓   ▐▓▓░ ▓▓▓▓▀ ▐▓  ▀▓▄▐▓▓▓▓ 
         ▀▀▀▀▀"                                                   
-printf "                                                       $red v1.0.2"  
+printf "                                                       $red v1.0.3"  
 echo
 printf "\e[0m\n"
-printf "\e[0m\e[1;93m             $cafe Github :$yellow @tech2gamer  $pink Instagram :$cyan @tech2.gamer    "
+printf "\e[0m\e[1;93m             $cafe Github :$yellow @E343IO  $pink Instagram :$cyan @e343io   "
 }
 os
 banner
@@ -102,14 +102,14 @@ cd $DRK
 sleep 2
 cp -f shorturl $BIN/st
 cp -f shorturl $BIN/St
-echo 'termux-open-url https://github.com/tech2gamer/' > $BIN/t2g
-echo 'termux-open-url https://github.com/tech2gamer/' > $BIN/T2g 
-echo 'termux-open-url https://www.instagram.com/tech2.gamer/' > $BIN/instagram 
-echo 'termux-open-url https://www.instagram.com/tech2.gamer/' > $BIN/Instagram
-chmod +x $BIN/t2g 
-chmod +x $BIN/t2g
-chmod +x $BIN/instagram 
-chmod +x $BIN/Instagram
+#echo 'termux-open-url https://github.com/tech2gamer/' > $BIN/t2g
+#echo 'termux-open-url https://github.com/tech2gamer/' > $BIN/T2g 
+#echo 'termux-open-url https://www.instagram.com/tech2.gamer/' > $BIN/instagram 
+#echo 'termux-open-url https://www.instagram.com/tech2.gamer/' > $BIN/Instagram
+#chmod +x $BIN/t2g 
+#chmod +x $BIN/t2g
+#chmod +x $BIN/instagram 
+#chmod +x $BIN/Instagram
 chmod +x $BIN/st
 chmod +x $BIN/St
 sleep 2
