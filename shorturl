@@ -289,7 +289,7 @@ echo
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' num
 
 if [[ $num == 1 || $num == 01 ]]; then
-
+Drkopt
 elif [[ $num == 2 || $num == 02 ]]; then
 tiny
 elif [[ $num == 3 || $num == 03 ]]; then
