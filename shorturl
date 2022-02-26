@@ -167,7 +167,7 @@ echo""
 read -p $'\e[1;40m\e[1;32m Your Url : \e[0m' ng
 echo
 check $ng
-if [[ $ng == $ng ]]; then
+if [[ ! -z $ng ]]; then
        curl -s https://api.shrtco.de/v2/shorten?url=${ng} >> log.URI 
         grep -o 'https:[^"]*' log.URI >> bURI
         rm log.URI
@@ -197,9 +197,9 @@ banner
 sleep 1.5
 printf "\e[0m\n"
 echo
-printf " \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;32m SERVER - 1$yellow(\e[1;32m60% Chances of Working!$yellow) \e[0m\n"
+printf " \e[0m\e[1;91m[\e[0m\e[1;97m01\e[0m\e[1;91m]\e[0m\e[1;32m SERVER - 1$yellow(\e[1;32m'60%' Chances of Working!$yellow) \e[0m\n"
 echo
-printf " \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;32m SERVER - 2$yellow(\e[1;34m100% Chances of Working!$yellow)\e[0m\n"
+printf " \e[0m\e[1;91m[\e[0m\e[1;97m02\e[0m\e[1;91m]\e[0m\e[1;32m SERVER - 2$yellow(\e[1;34m'100%' Chances of Working!$yellow)\e[0m\n"
 echo
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' numbr
 if [[ $numbr == "1" || $numbr == "01" ]]; then
