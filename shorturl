@@ -204,7 +204,8 @@ echo
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: \e[0m\e[1;96m\en' numbr
 if [[ $numbr == "1" || $numbr == "01" ]]; then
      1ser
-elfi [[ $numbr == "2" || $numbr == "02" ]]; then
+elif
+ [[ $numbr == "2" || $numbr == "02" ]]; then
      ngrk
 else
       echo
