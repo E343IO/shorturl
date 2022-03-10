@@ -1,5 +1,5 @@
 <p align="center">
-<a href="https://github.com/tech2gamer"><img title="Made with Love in india" src="https://i.ibb.co/Lxj3BPd/mask-your-url-ngrok-tinyurl-1.png" </a>
+<a href="https://github.com/E343IO"><img title="Made with Love in india" src="https://i.ibb.co/Lxj3BPd/mask-your-url-ngrok-tinyurl-1.png" </a>
  <!--# <p align="center">**SHORTURL**-->
 
  ***
@@ -8,6 +8,13 @@
 
 #### <p align="center">**Link Shortener**
 </p>
+
+***
+
+## *[based on shark url shortner](https://github.com/Bhaviktutorials/shark)*
+
+***
+
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=tech2gamer&label=Repository%20views&color=0e75b6&style=flat" alt="tech2gamer" /> </p>
 <p align="center">
 <a href="https://github.com/E343IO"><img title="Open Source" src="https://img.shields.io/badge/Open%20Source-%E2%99%A5-red" ></a>
