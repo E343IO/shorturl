@@ -33,7 +33,10 @@
 ## <p align="center">***What is Shorturl??***
  <p align="center"> <img src="https://i.ibb.co/5F3tgcG/giphy.webp" width="100" height="100" >
    
-###### <p align="center">  This tool is specifically designed for ngrok.io links that may u know, Popular for phishing and stuff...This tool can mask the url using shortner so that victim can't sus on the link also I edit tinyurl based on tinyurl api that's shorten your any link. [eg. of •tinyurl• https://tinyurl.com/32expm] New patches will soon uploaded.
+###### <p align="center">  This tool is specifically designed to shrink long url into short in cli. Its a simple and easy tool for linux distros.
+
+### New patches are soon going to be upload.
+
 ## <p align="center">***Announcement***
 ###### <p align="center"> Soon we are going to add more shortenrs and updating tool so, stay tuned and thankyou for choosing our tool short url.
 <!--### <p align="center"> <img src="https://media.giphy.com/media/l41YmiCZ8HXvVl5M4/giphy.gif" alt="Instagram" width="80" height="80" > **Instagram Tutorial :-**-->
