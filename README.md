@@ -38,7 +38,7 @@
 ### New patches are soon going to be upload.
 
 ## <p align="center">***Announcement***
-###### <p align="center"> Soon we are going to add more shortenrs and updating tool so, stay tuned and thankyou for choosing our tool short url.
+#### <p align="center"> Soon we are going to add more shortenrs and updating tool so, stay tuned and thankyou for choosing our tool short url.
 <!--### <p align="center"> <img src="https://media.giphy.com/media/l41YmiCZ8HXvVl5M4/giphy.gif" alt="Instagram" width="80" height="80" > **Instagram Tutorial :-**-->
 
 <!-- #### <p align="center"> [**IGTV**](https://www.instagram.com/tv/CPaK7qzpUPo/?utm_source=ig_web_copy_link) -->
