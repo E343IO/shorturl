@@ -1,10 +1,8 @@
 <p align="center">
-<a href="https://github.com/E343IO"><img title="Made with Love in india" src="https://i.ibb.co/Lxj3BPd/mask-your-url-ngrok-tinyurl-1.png" </a>
  <!--# <p align="center">**SHORTURL**-->
 
- ***
   <p align="center">
-  <img src="https://i.ibb.co/DbSZBGK/20211013-200221.jpg" width="100%" height="100%" >
+  <img src="https://github.com/E343IO/stuff/raw/main/20220325_173206.png" width="100%" height="100%" >
 
 #### <p align="center">**Link Shortener**
 </p>
