@@ -120,7 +120,7 @@ echo
 printf "                $yellow ⚡️ $red$sta Short Your Url Quickly $sto$yellow⚡️\n\n"
 
 printf "\e[0m\n"
-printf "\e[0m\e[1;93m   $cafe Github :$yellow @E343IO  $pink Instagram :$cyan @E343IO    "
+printf "\e[0m\e[1;93m   $cafe Github :$yellow @E343IO  $pink Instagram :$cyan @er343io\n\n"
 }
 banner
 check () {
